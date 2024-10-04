@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
            var nombre = txtNombre.text.toString()
 
            if(nombre.any()){
-               lblNombre.text = "El teu nom és " + nombre
+               lblNombre.text = "El teu nom complet és " + nombre
            }else{
                Toast.makeText(this, "No has introduït el teu nom.", Toast.LENGTH_LONG).show()
                txtNombre.setBackgroundColor(Color.RED)
